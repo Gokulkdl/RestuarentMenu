@@ -1,0 +1,32 @@
+.menu-list{
+    background: url(../../assets/images/menulist-bg.png) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    padding: 15px 0;
+    .menu{
+        display: flex;
+        justify-content: center;
+        li{
+            margin: 0 14px;
+            @media screen and (max-width: 767px) {
+                margin: 0 4px;
+                
+            }
+            a{  
+                display: block;
+                font-size: 16px;
+                font-weight: 600px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                padding: 13px 39px;
+                border: 1px solid #0796EF;
+                @media screen and (max-width: 767px) {
+                    padding: 7px 22px;
+                }
+            }
+            a.active{
+                background: #0796EF;
+            }
+        }
+    }
+}

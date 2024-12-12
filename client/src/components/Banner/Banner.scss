@@ -1,0 +1,25 @@
+.banner{
+    background: url(../../assets/images/banner.png) no-repeat center center;
+    background-size: cover;
+    padding: 78px 0 122px 0;
+    .container{
+        .banner-content{
+            h1{
+                font-size: 75px;
+                line-height: 60px;
+                text-transform: uppercase;
+                color: #FFFFFF;   
+                text-align: center;
+            }
+            .text{
+                max-width: 681px;
+                margin: 0  auto;
+                p{
+                    font-size: 18px;
+                    color: #BBBBBB;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

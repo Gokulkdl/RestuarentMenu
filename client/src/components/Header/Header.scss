@@ -1,0 +1,58 @@
+header{
+    padding: 64px 0 12px;
+    background: #121618;
+    position: relative;
+    @media screen and (max-width: 767px) {
+        padding: 20px 0 0 0;
+    }
+    .col-logo{
+        
+        .nav-toggle{
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);    
+            width: 19px;            
+            height: 19px;
+            display: none;
+            @media (max-width: 767px) {
+                display: block;
+            }
+        }
+    }
+    .brand{
+        display: block;
+        margin-bottom: -60px;
+        width: fit-content;
+        @media screen and (max-width: 767px) {
+            margin: 0 auto -20px auto;
+        }
+        img{
+            @media screen and (max-width: 767px) {
+                width: 50px;
+                height: 44px;
+            }
+        }
+    }
+    .col-nav{
+        display: flex;
+        justify-content: flex-end;
+        @media (max-width: 767px) {
+            display: none;
+        }
+        .nav{
+            li{
+                a{
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    margin: 0 15px;
+                    color: #F5F5F5;
+                }
+                a.active{
+                    color: #0796EF;
+                }
+            }
+        }
+    }
+    
+}
